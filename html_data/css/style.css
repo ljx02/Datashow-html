@@ -1,0 +1,251 @@
+body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:#f9f9f9;
+}
+
+a:hover{
+	background-color:white;
+	font-size:23px;
+}
+div#header_item{
+	margin:25px auto;
+	width:1129px;
+	min-height:100px;
+	text-align:center;
+	background:#efefef;
+	overflow:hidden;
+}
+div#classdata{
+	width:1129px;
+	min-width:1129px;
+	margin:0 auto;
+	background-color:#b6b6b6;
+	height:35px;
+	overflow:visible;
+	/*滚动条可见*/
+}
+
+div#ddata{
+	margin-left:400px;
+	margin-top:-10px;
+}
+
+div#ddata ul#menu li{
+	float:left;
+	margin-left:50px;
+	list-style:none;
+	display:inline-center;
+	font-size:15px;
+	color:#FFF;
+	margin-top:6px;
+}
+
+div#show{
+	margin:25px auto;
+	padding:0;
+	border:0;
+	width:1129px;
+	min-height:1000px;
+	text-align:left;
+	background:#ffffff;
+	overflow:visible;
+}
+div#leftshow ul#menu2 li{
+	margin-top:20px;
+	font-size:18px;
+}
+div#leftshow{
+	float:left;
+	border:0;
+	width:290px;
+	background:#efefef;
+	margin-bottom:-4000px;
+	padding-bottom:3549px;
+	display:inline;
+	
+}
+div#leftshow-fixed{
+	float:left;
+	border:0;
+	width:290px;
+	background:#efefef;
+	margin-bottom:-4000px;
+	padding-bottom:200px;
+	margin-top:-100px;
+	position:fixed;
+	display:none;
+}
+div#pictureshow{
+	float:left;
+	margin:0;
+	padding:0;
+	border:0;
+	width:839px;
+	height:4365px;
+	margin-bottom:0px;
+	padding-bottom:50px;
+	background:#ffffff;
+}
+
+div#leftshow-fixed ul#menu3 li{
+	margin-top:20px;
+	font-size:18px;
+}
+
+div#picture-2{
+	display:none;
+}
+div#picture-3{
+	display:none;
+}
+div#picture-4{
+	display:none;
+}
+div#picture-5{
+	display:none;
+}
+div#picture-6{
+	display:none;
+}
+
+.titleshow{
+	display:none;
+}
+
+#tip{
+	position:absolute;
+	width:70px;
+	height:auto;
+	padding:10px;
+	background-color:white;
+	border-radius:10px;
+	box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+	pointer-events:none;
+}
+#tip.hidden1{
+	display:none;
+}
+#tip p{
+	margin:0;
+	font-family:sans-serif;
+	font-size:16px;
+	line-height:20px;
+}
+
+#Bigdatatip{
+	position:absolute;
+	width:100px;
+	height:auto;
+	padding:10px;
+	background-color:white;
+	border-radius:10px;
+	box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+	pointer-events:none;
+}
+
+#Bigdatatip.hidden2{
+	display:none;
+}
+
+#Bigdata-tip p{
+	margin:0;
+	font-family:sans-serif;
+	font-size:16px;
+	line-height:20px;
+}
+
+div#show button{
+	height:50px;
+	background:white;
+	width:200px;
+	font-size:18px;
+	border-radius:20px;
+	box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+	margin-top:35px;
+}
+
+path{
+	fill:none;
+	stroke:gray;
+	stroke-width:2;
+}
+.piepath{
+	fill:none;
+	stroke:white;
+	stroke-width:2;
+}
+
+.tick line{
+	stroke:gray;
+	shape-rendering:crispEdges;
+	stroke-width:1;
+}
+.tick text{
+	font-size:15px;
+}
+	
+#tooltip{
+	position:absolute;
+	width:140px;
+	height:auto;
+	padding:10px;
+	background-color:white;
+	border-radius:10px;
+	box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+	pointer-events:none;
+}
+#tooltip.hidden{
+	display:none;
+}
+#tooltip p{
+	margin:0;
+	font-family:sans-serif;
+	font-size:16px;
+	line-height:20px;
+}
+
+.lishow{
+	background-color:transparent;
+}
+
+path:hover {  opacity:0.9; }
+rect:hover {  fill:blue; }
+.axis {  font: 13px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    float:right;
+    width:50px;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+
